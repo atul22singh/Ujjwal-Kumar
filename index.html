@@ -1,1 +1,97 @@
 <!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>
+        Image Gallery|Solar System
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+    <div class="gallery-section">
+        <div class="inner-width">
+            <h1>My Gallery</h1>
+            <div class="border"></div>
+                <div class="gallery">
+                    <a href="images\solarsys1.jpg" class="image">
+                        <img src="images\solarsys1.jpg" alt="">
+                    </a>
+                    <a href="images\sun1.jpg" class="image">
+                        <img src="images\sun1.jpg" alt="">
+                    </a>
+                    <a href="images\mercury.jpg" class="image">
+                        <img src="images\mercury.jpg" alt="">
+                    </a>
+                    <a href="images\venus.jpg" class="image">
+                        <img src="images\venus.jpg" alt="">
+                    </a>
+                    <a href="images\earth.jpg" class="image">
+                        <img src="images\earth.jpg" alt="">
+                    </a>
+                    <a href="images\moon.jpg" class="image">
+                        <img src="images\moon.jpg" alt="">
+                    </a>
+                    <a href="images\mars.jpg" class="image">
+                        <img src="images\mars.jpg" alt="">
+                    </a>
+                    <a href="images\asteroid belt.jpg" class="image">
+                        <img src="images\asteroid belt.jpg" alt="">
+                    </a>
+                    <a href="images\ceres.jpg" class="image">
+                        <img src="images\ceres.jpg" alt="">
+                    </a>
+                    <a href="images\jupiter.jpg" class="image">
+                        <img src="images\jupiter.jpg" alt="">
+                    </a>
+                    <a href="images\saturn.jpg" class="image">
+                        <img src="images\saturn.jpg" alt="">
+                    </a>
+                    <a href="images\uranus.jpg" class="image">
+                        <img src="images\uranus.jpg" alt="">
+                    </a>
+                    <a href="images\neptune.jpg" class="image">
+                        <img src="images\neptune.jpg" alt="">
+                    </a>
+                    <a href="images\pluto.jpg" class="image">
+                        <img src="images\pluto.jpg" alt="">
+                    </a>
+                    <a href="images\comet.png" class="image">
+                        <img src="images\comet.png" alt="">
+                    </a>
+                    <a href="images\kuiper belt.jpg" class="image">
+                        <img src="images\kuiper belt.jpg" alt="">
+                    </a>
+                    <a href="images\eris.jpg" class="image">
+                        <img src="images\eris.jpg" alt="">
+                    </a>
+                    <a href="images\oort cloud.png" class="image">
+                        <img src="images\oort cloud.png" alt="">
+                    </a>
+                    <a href="images\satellite.jpg" class="image">
+                        <img src="images\satellite.jpg" alt="">
+                    </a>
+                    <a href="images\nebula.jpg" class="image">
+                        <img src="images\nebula.jpg" alt="">
+                    </a>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(".gallery").magnificPopup({
+            delegate: 'a',
+            type: 'image',
+            gallery: {
+                enabled: true
+            }
+        });
+    </script>
+</body>
+
+</html>
